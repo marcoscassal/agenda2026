@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
-INSTALLED_APPS += ['home',]
+INSTALLED_APPS += ['django_bootstrap5', ]
+
+INSTALLED_APPS += ['home', 'fornecedores', ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
