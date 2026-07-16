@@ -83,6 +83,9 @@
                             </div>
                         {% endfor %}
                     </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        {% bootstrap_pagination page_obj size="sm" extra=request.GET.urlencode %}
+                    </div>
                 </div>
             </div>
         {% else %}
